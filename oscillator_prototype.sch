@@ -912,7 +912,7 @@ L Synth:AudioJack1_SwitchT J6
 U 1 1 5FA12C1A
 P 900 8950
 F 0 "J6" H 932 9267 50  0000 C CNN
-F 1 "Sync" H 932 9176 50  0000 C CNN
+F 1 "PJ398SM" H 932 9176 50  0000 C CNN
 F 2 "kicad_libraries:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-translated" H 900 8950 50  0001 C CNN
 F 3 "" H 900 8950 50  0001 C CNN
 	1    900  8950
@@ -1140,7 +1140,7 @@ L Synth:AudioJack1_SwitchT J1
 U 1 1 5FDFE059
 P 13700 1550
 F 0 "J1" H 13520 1514 50  0000 R CNN
-F 1 "shark fin" H 13520 1423 50  0000 R CNN
+F 1 "PJ398SM" H 13520 1423 50  0000 R CNN
 F 2 "kicad_libraries:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-translated" H 13700 1550 50  0001 C CNN
 F 3 "" H 13700 1550 50  0001 C CNN
 	1    13700 1550
@@ -1154,7 +1154,7 @@ L Synth:AudioJack1_SwitchT J4
 U 1 1 5FE933E2
 P 11450 4000
 F 0 "J4" H 11270 3964 50  0000 R CNN
-F 1 "Triangle" H 11270 3873 50  0000 R CNN
+F 1 "PJ398SM" H 11270 3873 50  0000 R CNN
 F 2 "kicad_libraries:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-translated" H 11450 4000 50  0001 C CNN
 F 3 "" H 11450 4000 50  0001 C CNN
 	1    11450 4000
@@ -1190,7 +1190,7 @@ L Synth:AudioJack1_SwitchT J3
 U 1 1 5FB808E0
 P 1000 2800
 F 0 "J3" H 1032 3117 50  0000 C CNN
-F 1 "1v/oct" H 1032 3026 50  0000 C CNN
+F 1 "PJ398SM" H 1032 3026 50  0000 C CNN
 F 2 "kicad_libraries:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-translated" H 1000 2800 50  0001 C CNN
 F 3 "" H 1000 2800 50  0001 C CNN
 	1    1000 2800
@@ -1486,7 +1486,7 @@ L Synth:AudioJack1_SwitchT J8
 U 1 1 5FFECECA
 P 700 4400
 F 0 "J8" H 732 4717 50  0000 C CNN
-F 1 "Linear FM" H 732 4626 50  0000 C CNN
+F 1 "PJ398SM" H 732 4626 50  0000 C CNN
 F 2 "kicad_libraries:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles-translated" H 700 4400 50  0001 C CNN
 F 3 "" H 700 4400 50  0001 C CNN
 	1    700  4400
@@ -2240,7 +2240,7 @@ L Device:R_Small_US R23
 U 1 1 5FB303DD
 P 6900 8600
 F 0 "R23" H 6800 8700 50  0000 C CNN
-F 1 "10k" H 6786 8600 50  0000 C CNN
+F 1 "18k" H 6786 8600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6900 8600 50  0001 C CNN
 F 3 "~" H 6900 8600 50  0001 C CNN
 	1    6900 8600
