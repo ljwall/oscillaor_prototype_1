@@ -1031,17 +1031,6 @@ F 3 "~" H 10400 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 10100 4000
-$Comp
-L power:GND #PWR019
-U 1 1 5FCFD842
-P 10400 3350
-F 0 "#PWR019" H 10400 3100 50  0001 C CNN
-F 1 "GND" H 10405 3177 50  0000 C CNN
-F 2 "" H 10400 3350 50  0001 C CNN
-F 3 "" H 10400 3350 50  0001 C CNN
-	1    10400 3350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10400 3150 10400 3050
 $Comp
@@ -1756,8 +1745,6 @@ Wire Wire Line
 	1300 2900 1300 2800
 Wire Wire Line
 	1300 2800 1200 2800
-Wire Wire Line
-	1250 4400 900  4400
 Text GLabel 1550 4700 2    50   Input ~ 0
 lin_fm_f
 Text GLabel 2000 4600 0    50   Input ~ 0
@@ -2650,8 +2637,6 @@ F 3 "~" H 4750 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4550 1900
-Text Notes 950  4350 0    50   ~ 0
-Should have 220n in here!
 $Comp
 L Device:R_Small_US R11
 U 1 1 5FBF69ED
@@ -2663,4 +2648,30 @@ F 3 "~" H 9150 2800 50  0001 C CNN
 	1    9150 2800
 	-1   0    0    1   
 $EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 5FFF22B1
+P 10400 3350
+F 0 "#PWR?" H 10400 3450 50  0001 C CNN
+F 1 "-12V" H 10415 3523 50  0000 C CNN
+F 2 "" H 10400 3350 50  0001 C CNN
+F 3 "" H 10400 3350 50  0001 C CNN
+	1    10400 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 600B4DC7
+P 1050 4400
+F 0 "C?" V 821 4400 50  0000 C CNN
+F 1 "220n" V 912 4400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 4400 50  0001 C CNN
+F 3 "~" H 1050 4400 50  0001 C CNN
+	1    1050 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  4400 900  4400
+Wire Wire Line
+	1150 4400 1250 4400
 $EndSCHEMATC
